@@ -1,10 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rex Bot</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, section, footer {
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -38,7 +72,7 @@
     <section id="join-community">
         <h2>Invita il bot!</h2>
         <p>Clicca il pulsante ed aggiungi il bot!</p>
-        <a href="https://discord.com/oauth2/authorize?client_id=1248008865220657263&permissions=8&scope=bot " target="_blank" class="btn">Aggiungilo al tuo server!</a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1248008865220657263&permissions=8&scope=bot" target="_blank" class="btn">Aggiungilo al tuo server!</a>
     </section>
 
     <section id="join-community">
@@ -47,11 +81,12 @@
         <a href="https://dsc.gg/andrexcommunity" target="_blank" class="btn">Entra nel nostro server Discord</a>
     </section>
 
-
     <footer>
-        <p>Aggiungi il bot!</a></p>
+        <p>Aggiungi il bot!</p>
+        <div>
+            <a href="tos.html" class="btn">Termini di Servizio</a>
+            <a href="privacy.html" class="btn">Privacy Policy</a>
+        </div>
     </footer>
-
-    
 </body>
 </html>
